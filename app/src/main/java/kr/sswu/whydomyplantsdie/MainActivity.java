@@ -1,12 +1,10 @@
 package kr.sswu.whydomyplantsdie;
 
-import android.Manifest;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -17,8 +15,6 @@ import kr.sswu.whydomyplantsdie.Fragment.FeedFragment;
 import kr.sswu.whydomyplantsdie.Fragment.MbtiFragment;
 import kr.sswu.whydomyplantsdie.Fragment.SearchFragment;
 import kr.sswu.whydomyplantsdie.Fragment.SettingFragment;
-
-import static com.google.gson.internal.$Gson$Types.arrayOf;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -6,20 +6,68 @@
     android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:contentInsetStart="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-40dp"
+        android:fontFamily="@font/tvnbold"
+        android:gravity="center_vertical"
+        android:text="MyForest"
+        android:textColor="@color/black"
+        android:textSize="32dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="116dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="-40dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="-55dp"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginRight="-20dp"
+        android:layout_marginBottom="-20dp"
+        app:srcCompat="@drawable/logo_icon2" />
+    <!-- <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="-50dp"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="-20dp"
+        app:srcCompat="@drawable/logo_icon2" />
+
+    <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#00000000"
         android:gravity="left">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="My Forest"
-            android:textColor="#246540"
-            android:textSize="30dp"
-            android:textStyle="bold"/>
 
-    </androidx.appcompat.widget.Toolbar>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/tvnbold"
+            android:gravity="center_vertical"
+            android:text="My Forest"
+            android:textColor="@color/black"
+            android:textSize="32dp"/>
+
+    </androidx.appcompat.widget.Toolbar>-->
 
     <FrameLayout
         android:layout_gravity="center_horizontal"

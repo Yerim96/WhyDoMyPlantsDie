@@ -112,4 +112,15 @@ dependencies {
     //swipe refresh layout
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 
+    //Tool var weget
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:23.2.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:23.2.1'
+
+
+
+
+
+
 }
